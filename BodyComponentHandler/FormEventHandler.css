@@ -1,0 +1,91 @@
+.appointment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #e7e5e2;
+  margin-bottom: 0px;
+}
+
+.form-input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  margin-right: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+
+  width: 280px;
+  height: 25px;
+  background-color: #E7E5E2;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover {
+  border: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border: none;
+  outline: none;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder {
+  color: grey;
+}
+
+.submit {
+  padding: 10px 20px;
+  background-color: #7A5604;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  width: 97%;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.email,
+.Phoneno {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 97%;
+  margin-bottom: 20px;
+  height: 25px;
+  background-color: #E7E5E2;
+}
+
+.Message {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 97% !important;
+  margin-bottom: 10px;
+  height: 25px;
+}

@@ -1,0 +1,57 @@
+.about-overview-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  background-color: #dedbd7;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+
+  max-width: 350px;
+  height: 400px;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.text span {
+  font-size: 24px;
+  margin: 0;
+
+  font-family: Rufina;
+  font-size: 37px;
+  color: #7A5604;
+}
+
+.text p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+  font-family: Rufina;
+  font-size: 20px;
+  color: #041D52;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+ul {
+  padding: 10px;
+
+}
+
+ul li {
+  margin-bottom: 18px;
+  font-family: Rufina;
+  font-size: 20px;
+  color: #424B5F;
+  margin-left: 28px;
+
+}

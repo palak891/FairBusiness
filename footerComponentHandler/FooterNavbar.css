@@ -1,0 +1,23 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  font-size: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+nav Link {
+  text-decoration: none;
+  color: black;
+
+  margin-left: 90px;
+}
+
+Link {
+  margin-left: 10px
+}

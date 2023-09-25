@@ -1,0 +1,11 @@
+.container-Outside {
+
+    margin: 20px;
+    margin-left: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container-Outside h3 {
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
